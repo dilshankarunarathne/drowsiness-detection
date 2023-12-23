@@ -60,3 +60,4 @@ target/
 
 /gz/
 drowsiness_detection/shape_predictor_68_face_landmarks.dat.bz2
+drowsiness_detection/shape_predictor_68_face_landmarks.dat
