@@ -17,9 +17,7 @@ face_detector = dlib.get_frontal_face_detector()
 
 # PUT THE LOCATION OF .DAT FILE (FILE FOR
 # PREDECTING THE LANDMARKS ON FACE )
-dlib_facelandmark = dlib.shape_predictor(
-    "C:\\Users\Acer\\Desktop\\geeks\\article 9\\drowsine\
-	ssDetector-master\\shape_predictor_68_face_landmarks1.dat")
+dlib_facelandmark = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 
 # FUNCTION CALCULATING THE ASPECT RATIO FOR
